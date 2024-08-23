@@ -9,7 +9,7 @@ Before you can run the application, make sure you have the following installed o
 
 ## Project Structure
 - docker-compose.yml: Defines the Docker services, including the MySQL database.
-- kitra_db.sql: SQL script to initialize the database with tables and sample data.
+- initdb.sql: SQL script to initialize the database with tables and sample data.
 
 ## Getting Started
 Follow these steps to set up and run the Kitra Game API.
