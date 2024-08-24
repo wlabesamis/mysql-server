@@ -1,4 +1,4 @@
-# Kitra API
+# Kitra Database
 This repository contains a mysql database setup that stores user information, treasure locations, and associated monetary values.
 
 ## Prerequisites
@@ -34,7 +34,7 @@ This command will:
 - Pull the MySQL 8.0 image.
 - Create a container named kitra_mysql.
 - Set up the database using the environment variables defined in docker-compose.yml.
-- Initialize the database with the structure and data provided in kitra_db.sql.
+- Initialize the database with the structure and data provided in initdb.sql.
 
 
 ### 4. Access the MySQL Database
